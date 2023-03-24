@@ -1,14 +1,4 @@
-/* ==UserStyle==
-@name           DIM milk chocolate
-@namespace      github.com/milkembers/DIM-milk
-@version        1.0.0
-@description    a soft dark theme for DIM
-@author         milk
-@updateURL      https://github.com/milkembers/DIM-milk/raw/main/chocolate/chocolate.user.css
-@preprocessor   stylus
-==/UserStyle== */
-@-moz-document domain("app.destinyitemmanager.com"),
-domain("beta.destinyitemmanager.com") {
+/*chocolate*/
     body {
         background-color: #000;
         color: #fff;
