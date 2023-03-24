@@ -11,7 +11,6 @@
 @-moz-document domain("app.destinyitemmanager.com"),
 domain("beta.destinyitemmanager.com") {
   if (theme=="chocolate (dark)") {
-    @import url("https://milkembers.github.io/DIM-milk/chocolate/chocolate.css")
-
-}
+    @import url("https://milkembers.github.io/DIM-milk/chocolate/chocolate.css");
+  }
 }
