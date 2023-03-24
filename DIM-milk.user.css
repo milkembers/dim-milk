@@ -10,7 +10,7 @@
 ==/UserStyle== */
 @-moz-document domain("https://app.destinyitemmanager.com/"),
 domain("https://beta.destinyitemmanager.com/") {
-  if (theme=="chocolate (dark)") {
+  if theme=="chocolate (dark)" {
     @import url("https://milkembers.github.io/DIM-milk/chocolate/chocolate.css");
   }
 }
