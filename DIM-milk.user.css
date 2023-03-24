@@ -6,11 +6,11 @@
 @author         milk
 @updateURL      https://milkembers.github.io/DIM-milk/DIM-milk.user.css
 @preprocessor   stylus
-@var select theme "theme" ["chocolate (dark)"]
+@var select theme "theme" ["chocolate (dark)", "vanilla (light) (not implemented)"]
 ==/UserStyle== */
-@-moz-document domain("app.destinyitemmanager.com"),
-domain("beta.destinyitemmanager.com") {
-  if (theme=="chocolate (dark)") {
+
+@-moz-document domain("app.destinyitemmanager.com"),domain("beta.destinyitemmanager.com") {
+  if (theme == "chocolate (dark)") {
     body {
       background-color: #000;
       color: #fff;
@@ -101,5 +101,7 @@ domain("beta.destinyitemmanager.com") {
     .item-img {
       border: 1px solid #0000;
     }
+  }
+  else if (theme == "vanilla (light)") {
   }
 }
