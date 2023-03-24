@@ -10,10 +10,10 @@
 ==/UserStyle== */
 
 @-moz-document domain("app.destinyitemmanager.com"), domain("beta.destinyitemmanager.com") {
-    if theme=="chocolate" {
-        @import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");
-    }
-    else if theme=="vanilla" {
-        @import url("https://milkembers.github.io/DIM-milk/src/vanilla.css");
-    }
+  if theme==chocolate {
+    @import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");
+  }
+  else if theme==vanilla {
+    @import url("https://milkembers.github.io/DIM-milk/src/vanilla.css");
+  }
 }
