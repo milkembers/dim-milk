@@ -5,4 +5,4 @@ a soft theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DI
 2. install theme with Stylus (click on the link):
   - [🧋 DIM milk](https://milkembers.github.io/DIM-milk/DIM-milk.user.css)
 # notes
-only chocolate (dark mode) is enabled right now - it doesn't matter if you choose chocolate or vanilla
+only chocolate (dark mode) is available. more flavors may be added in the future 💕
