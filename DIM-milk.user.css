@@ -5,7 +5,8 @@
 @description    a soft theme for DIM
 @author         milk
 @updateURL      https://milkembers.github.io/DIM-milk/DIM-milk.user.css
-@var select theme "theme" ["chocolate (dark)", "vanilla (light)"]
+@preprocessor   stylus
+@var select theme "theme" ["chocolate*", "vanilla"]
 ==/UserStyle== */
 
 @-moz-document domain("app.destinyitemmanager.com"),
