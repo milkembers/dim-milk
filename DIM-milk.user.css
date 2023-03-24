@@ -9,93 +9,97 @@
 @var select theme "theme" ["chocolate (dark)"]
 ==/UserStyle== */
 @-moz-document domain("app.destinyitemmanager.com"),
-domain("beta.destinyitemmanager.com")
-{
+domain("beta.destinyitemmanager.com") {
   if theme=="chocolate (dark)" {
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif, "Destiny Symbols";
-  text-transform: lowercase;
-}
-input,
-select,
-option {
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif, "Destiny Symbols";
-  text-transform: lowercase;
-}
-.item {
-  background-color: #000;
-  color: #fff;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif, "Destiny Symbols";
-}
-.bqhlsq0i,
-.App-m_app-bqhlsq0i {
-  background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
-  background-image: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
-}
-.SFvjXa6L,
-.HeaderShadowDiv-m_cover-SFvjXa6L {
-  background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
-  background-image: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
-}
-.BcBfoaH1,
-.Header-m_header-BcBfoaH1 {
-  background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
-  background-image: radial-gradient(
-    circle at 50% 70px,
-    #1a1a1a 0%,
-    #0b0b0b 100%
-  );
-}
-.store-header {
-  background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
-}
-.Tzf8KGh4 > div {
-  background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
-  background-image: radial-gradient(
-    circle at 50% 70px,
-    #1a1a1a 0%,
-    #0b0b0b 100%
-  );
-}
-.bqhlsq0i::before,
-.App-m_app-bqhlsq0i::before {
-  background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
-  background-image: radial-gradient(
-    circle at 50% 70px,
-    #1a1a1a 0%,
-    #0b0b0b 100%
-  );
-}
-.SLO2oppG,
-.BadgeInfo-m_badge-SLO2oppG {
-  background-color: #222;
-  color: #fff;
-  font-size: 10.2px;
-}
-.Ix_a_6E_,
-.RatingIcon-m_godroll-Ix_a_6E_ {
-  color: #ff7690;
-}
-.ACvR6Tj5,
-.CharacterTile-m_top-ACvR6Tj5 {
-  font-size: 18px;
-  padding-top: 2px;
-}
-.xg_cOqMC,
-.ItemFeedSidebar-m_trayButton-xg_cOqMC,
-.dim-button {
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif, "Destiny Symbols";
-  text-transform: lowercase;
-}
-.ocVP7y8z,
-.CharacterTile-m_powerLevel-ocVP7y8z {
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif, "Destiny Symbols";
-  font-weight: 500;
-}
-.item-img {
-  border: 1px solid #0000;
-}
-}
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif,
+        "Destiny Symbols";
+      text-transform: lowercase;
+    }
+    input,
+    select,
+    option {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif,
+        "Destiny Symbols";
+      text-transform: lowercase;
+    }
+    .item {
+      background-color: #000;
+      color: #fff;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif,
+        "Destiny Symbols";
+    }
+    .bqhlsq0i,
+    .App-m_app-bqhlsq0i {
+      background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
+      background-image: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
+    }
+    .SFvjXa6L,
+    .HeaderShadowDiv-m_cover-SFvjXa6L {
+      background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
+      background-image: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
+    }
+    .BcBfoaH1,
+    .Header-m_header-BcBfoaH1 {
+      background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
+      background-image: radial-gradient(
+        circle at 50% 70px,
+        #1a1a1a 0%,
+        #0b0b0b 100%
+      );
+    }
+    .store-header {
+      background: radial-gradient(circle at 50% 70px, #000 0%, #000 100%);
+    }
+    .Tzf8KGh4 > div {
+      background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
+      background-image: radial-gradient(
+        circle at 50% 70px,
+        #1a1a1a 0%,
+        #0b0b0b 100%
+      );
+    }
+    .bqhlsq0i::before,
+    .App-m_app-bqhlsq0i::before {
+      background: radial-gradient(circle at 50% 70px, #1a1a1a 0%, #0b0b0b 100%);
+      background-image: radial-gradient(
+        circle at 50% 70px,
+        #1a1a1a 0%,
+        #0b0b0b 100%
+      );
+    }
+    .SLO2oppG,
+    .BadgeInfo-m_badge-SLO2oppG {
+      background-color: #222;
+      color: #fff;
+      font-size: 10.2px;
+    }
+    .Ix_a_6E_,
+    .RatingIcon-m_godroll-Ix_a_6E_ {
+      color: #ff7690;
+    }
+    .ACvR6Tj5,
+    .CharacterTile-m_top-ACvR6Tj5 {
+      font-size: 18px;
+      padding-top: 2px;
+    }
+    .xg_cOqMC,
+    .ItemFeedSidebar-m_trayButton-xg_cOqMC,
+    .dim-button {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif,
+        "Destiny Symbols";
+      text-transform: lowercase;
+    }
+    .ocVP7y8z,
+    .CharacterTile-m_powerLevel-ocVP7y8z {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif,
+        "Destiny Symbols";
+      font-weight: 500;
+    }
+    .item-img {
+      border: 1px solid #0000;
+    }
+  }
 }
