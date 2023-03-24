@@ -10,7 +10,7 @@
 ==/UserStyle== */
 @-moz-document domain("app.destinyitemmanager.com"),
 domain("beta.destinyitemmanager.com") {
-  if theme=="chocolate (dark)" {
+  if (theme=="chocolate (dark)") {
     body {
       background-color: #000;
       color: #fff;
