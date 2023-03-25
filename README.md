@@ -1,5 +1,5 @@
 # DIM milk
-a soft theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM)
+a soft theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM).
 
 ![DIM milk preview](https://milkembers.github.io/DIM-milk/src/xpreview.png)
 
