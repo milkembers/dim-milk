@@ -4,14 +4,10 @@ on:
     branches: ["main"]
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: https://milkembers.github.io/DIM-milk/
     runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
-      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
@@ -21,9 +17,5 @@ jobs:
         with:
           commit_message: strawberry
           branch: ${{ github.ref }}
-      - uses: actions/configure-pages@v3
-      - uses: actions/upload-pages-artifact@v2
-        with:
-          path: '.'
       - id: deployment
         uses: actions/deploy-pages@v2
