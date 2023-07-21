@@ -21,7 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: joshbeard/minify-action@v1.0.1
+        with:
+          ref: ${{ github.ref }}
+      - uses: joshbeard/minify-action@v1.1.0
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: mocha
