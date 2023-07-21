@@ -17,7 +17,7 @@ jobs:
       - uses: eduardo92005-debug/minify-all@v1
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: mocha
+          commit_message: strawberry
           branch: ${{ github.ref }}
       - uses: actions/configure-pages@v3
       - uses: actions/upload-pages-artifact@v2
