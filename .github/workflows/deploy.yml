@@ -4,20 +4,11 @@ on:
   push:
     branches: ["main"]   
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: milkembers.github.io/DIM-milk/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
