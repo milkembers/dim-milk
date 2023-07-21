@@ -1,14 +1,12 @@
 name: milkshake
-
 on:
   push:
-    branches: ["main"]   
-
+    branches: ["main"]
 jobs:
   deploy:
     environment:
       name: github-pages
-      url: milkembers.github.io/DIM-milk/
+      url: https://milkembers.github.io/DIM-milk/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
