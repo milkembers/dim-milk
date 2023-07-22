@@ -15,7 +15,7 @@
 
 <p align="center">
 	<img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/preview1.png"><br/>
-	<img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/preview2.png"> <img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/preview3.png">
+	<img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/preview2.png"><img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/preview3.png">
 </p>
 
 ## 📥 usage
