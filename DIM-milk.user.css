@@ -8,9 +8,10 @@
 @preprocessor   stylus
 @var select theme "theme" ["chocolate*"]
 ==/UserStyle== */
-@-moz-document domain("destinyitemmanager.com") {
 
-    if (theme=="chocolate") {
+@-moz-document domain("destinyitemmanager.com") {
+    
+    if (theme == "chocolate") {
         @import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");
     }
 }
