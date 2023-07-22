@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-	<img alt="preview" src="https://milkembers.github.io/DIM-milk/src/xpreview.png">
+	<img alt="preview" src="https://milkembers.github.io/DIM-milk/assets/xpreview.png">
 </p>
 
 ## 📥 usage

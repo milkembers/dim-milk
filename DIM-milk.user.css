@@ -1,17 +1,10 @@
 /* ==UserStyle==
 @name           DIM milk
 @namespace      github.com/milkembers/DIM-milk
-@version        1.1.3
+@version        1.2.0
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/DIM-milk/DIM-milk.user.css
 @preprocessor   stylus
-@var select theme "theme" ["chocolate*"]
 ==/UserStyle== */
-
-@-moz-document domain("destinyitemmanager.com") {
-    
-    if (theme == "chocolate") {
-        @import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");
-    }
-}
+@-moz-document domain("destinyitemmanager.com"){:root{--dim-brand:#d694a0;--theme-accent-secondary:#f5dc56;--theme-pwa-background:#000;--theme-text:#fff;--theme-text-invert:#fff;--theme-text-secondary:#ccc;--theme-header-characters-txt:#ccc;--theme-fill-modal:#0009;--theme-fill-modal-actions:#000000e0;--theme-tooltip-header-bg:#000;--theme-tooltip-body-bg:#000000e0;--theme-tooltip-border:#0009;--theme-tooltip-minimal-bg:#0009;--theme-app-bg-gradient-start:#0000;--theme-app-bg-gradient-end:#0000;--theme-app-bg-gradient:#000;--theme-search-bg:#0009;--theme-search-dropdown-border:transparent;--theme-item-polaroid:#222;--theme-item-polaroid-hover-border:#ddd;--theme-item-polaroid-masterwork:#3c2d00;--theme-item-polaroid-masterwork-border:#ae791e;--theme-item-polaroid-godroll:#ff7690;--theme-item-popup-border:#0009;--theme-item-popup-panel-bg:#222;--theme-item-popup-progress-bar-bg:#111;--theme-organizer-row-odd-bg:#111;--theme-organizer-row-even-bg:#000}.ItemStat-m_barContainer-SmHxMlUC,.objective-progress{background-color:#222}.sheet .sheet-container{background-color:#0009}.equipped-item{border:1px solid #ddd6}.item-img{border:1px solid #0000}.BadgeInfo-m_badge-SLO2oppG{font-size:10.4px}.CharacterTile-m_top-ACvR6Tj5{font-size:18px;padding-top:2px}.DesktopItemActions-m_interaction-Ul_ZE389,.ItemPopup-m_arrow-_wTCbgER,.PressTip-m_minimalTooltip-SO6eEqfl,.PressTip-m_tooltip-SHtI4cRc,.SearchBar-m_menu-luun6aPQ,.loadout-menu,.sheet .sheet-container{backdrop-filter:blur(2px)}.ActionButtons-m_label-US8Iulse,.CharacterTile-m_powerLevel,.FilterPills-m_pill-WoF1LwzK,.ItemFeedSidebar-m_trayButton-xg_cOqMC,.ItemMoveLocations-m_vaultLabel-geqSoDNa,.ItemPopupHeader-m_subtitle-I1AZaUn7,.LoadoutView-m_missingItems-LxtrAtwO,.Vendor-m_location-Fcx2Os4V,.dim-button,.item,.milestone-quest,.ocVP7y8z,.xg_cOqMC,body,input,option,select{font-family:"Neue Haas Grotesk Display Pro",sans-serif,"Destiny Symbols"!important;text-transform:lowercase!important}}
