@@ -1,10 +1,16 @@
 /* ==UserStyle==
 @name           DIM milk
 @namespace      github.com/milkembers/DIM-milk
-@version        1.1.2
+@version        1.1.3
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/DIM-milk/DIM-milk.user.css
-@preprocessor   default
+@preprocessor   stylus
+@var select theme "theme" ["chocolate*"]
 ==/UserStyle== */
-@-moz-document domain("destinyitemmanager.com") {@import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");}
+@-moz-document domain("destinyitemmanager.com") {
+
+    if (theme=="chocolate") {
+        @import url("https://milkembers.github.io/DIM-milk/src/chocolate.css");
+    }
+}
