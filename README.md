@@ -25,6 +25,6 @@
   
 ## ✨ notes
 
-only chocolate (dark mode) is available. more flavors may be added in the future 💕
+only dark mode is available. more flavors may be added in the future 💕
 
 works on regular and beta.
