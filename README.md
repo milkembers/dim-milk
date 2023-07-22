@@ -3,14 +3,14 @@
 </h1>
 
 <p align="center">
-		<img alt="works on Firefox" src="https://img.shields.io/badge/works_on-firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
-		<img alt="works on Chrome" src="https://img.shields.io/badge/works_on-chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">
+		<img alt="works on Firefox" src="https://img.shields.io/badge/works_on-firefox-ff8c28?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
+		<img alt="works on Chrome" src="https://img.shields.io/badge/works_on-chrome-4285f4?style=for-the-badge&logo=Google-chrome&logoColor=white">
 	<a href="https://milkembers.github.io/DIM-milk/DIM-milk.user.css">
 		<img alt="install directly with Stylus" src="https://img.shields.io/badge/install_directly_with-stylus-00adad?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	a soft theme for <a href="https://github.com/DestinyItemManager/DIM">Destiny Item Manager</a>.
+	a soft, easy-on-the-eyes theme for <a href="https://github.com/DestinyItemManager/DIM">Destiny Item Manager</a>.
 </p>
 
 <p align="center">
