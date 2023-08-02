@@ -22,6 +22,7 @@
 
 1. install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. install theme with Stylus: [DIM milk](https://milkembers.github.io/DIM-milk/DIM-milk.user.css)
+3. (optional) install the font used in preview images: [Neue Haas Grotesk Display Pro](https://www.cufonfonts.com/font/neue-haas-grotesk-display-pro)
   
 ## ✨ notes
 
