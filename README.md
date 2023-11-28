@@ -1,4 +1,4 @@
-# 🧋 DIM-milk
+# 🧋 DIM milk
 
 a soft, easy-on-the-eyes theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM)
 
@@ -7,8 +7,8 @@ a soft, easy-on-the-eyes theme for [Destiny Item Manager](https://github.com/Des
 
 ## install
 
-1. install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-2. install theme with Stylus: [DIM milk](https://milkembers.github.io/DIM-milk/DIM-milk.user.css)
+1. get Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+2. follow this link to [install with Stylus](https://milkembers.github.io/DIM-milk/DIM-milk.user.css)
   
 > [!NOTE]  
 > works on both the regular and beta versions of Destiny Item Manager
