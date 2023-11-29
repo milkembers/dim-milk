@@ -1,11 +1,168 @@
 /* ==UserStyle==
-@name           DIM milk
-@namespace      github.com/milkembers/DIM-milk
-@homepageURL    https://github.com/milkembers/DIM-milk
-@version        1.2.5
+@name           dim milk
+@namespace      github.com/milkembers/dim-milk
+@homepageURL    https://github.com/milkembers/dim-milk
+@version        1.2.6
 @description    a soft theme for Destiny Item Manager
 @author         milk
-@updateURL      https://milkembers.github.io/DIM-milk/DIM-milk.user.css
+@updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
 @preprocessor   stylus
 ==/UserStyle== */
-@-moz-document regexp("https://(app|beta).destinyitemmanager.com/.*$") {@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');:root{--theme-accent-primary:#d294a0;--theme-accent-secondary:#f5dc56;--theme-fill-modal:#0009;--theme-fill-modal-actions:#000c;--theme-text:#efefef;--theme-text-invert:#efefef;--theme-text-secondary:#aaa;--theme-button-bg:#ffffff1a;--theme-button-text:var(--theme-text);--theme-input-bg:#333;--theme-drop-shadow:0 0 18px 0 #000;--theme-tooltip-underline:#0000;--theme-tooltip-header-bg:#000;--theme-tooltip-body-bg:#000000e0;--theme-tooltip-border:#0009;--theme-tooltip-minimal-bg:#0009;--theme-app-bg-gradient-start:#0000;--theme-app-bg-gradient-end:#0000;--theme-app-bg-gradient:radial-gradient(circle at 50% 70px, var(--theme-app-bg-gradient-start) 0%, var(--theme-app-bg-gradient-end) 100%);--theme-app-bg:var(--theme-app-bg-gradient);--theme-pwa-background:#000;--theme-mobile-background:#000;--theme-header-nav-bg:var(--theme-app-bg-gradient);--theme-header-nav-slideout-menu-bg:var(--theme-fill-modal);--theme-header-characters-bg:var(--theme-app-bg-gradient);--theme-header-characters-txt:var(--theme-text);--theme-dropdown-menu-bg:var(--theme-fill-modal);--theme-search-bg:#0006;--theme-search-dropdown-bg:var(--theme-fill-modal-actions);--theme-search-dropdown-border:#0000;--theme-item-polaroid:#222;--theme-item-polaroid-txt:var(--theme-text-invert);--theme-item-polaroid-hover-border:#ddd;--theme-item-polaroid-masterwork:#745700;--theme-item-polaroid-masterwork-txt:var(--theme-text);--theme-item-polaroid-capped:#745700;--theme-item-polaroid-capped-txt:var(--theme-text);--theme-item-polaroid-godroll:var(--theme-accent-primary);--theme-item-polaroid-trashroll:var(--theme-text);--theme-item-polaroid-element-adjust-brightness:70%;--theme-item-socket-border:#888;--theme-item-shaped-icon:#d25336;--theme-item-popup-border:#0009;--theme-item-popup-arrow:var(--theme-fill-modal-actions);--theme-item-popup-actions-bg:var(--theme-fill-modal-actions);--theme-item-popup-panel-bg:#222;--theme-item-popup-progress-bar-bg:#111;--theme-item-feed-bg:var(--theme-fill-modal);--theme-item-sheet-bg:var(--theme-fill-modal);--theme-sheet-search-bg:#ffffff26;--theme-organizer-row-odd-bg:#111;--theme-organizer-row-even-bg:#000;--theme-record-redeemed:#c4b578}.CharacterTile-m_bigText-pRAtv0kI{font-size:18px;padding-top:2px}.ItemIcon-m_legendaryMasterwork-EJ0gVh8G{background:linear-gradient(#0000004d,#0000 20%),radial-gradient(ellipse at center bottom,#e8a53433,#0000 75%) bottom,radial-gradient(ellipse at center bottom,#e8a5341a,#0000 75%) bottom,repeating-linear-gradient(to bottom right,#e8a53417,#e8a53417 5%,#e8a5340d 0,#e8a5340d 12.5%) 100% 100%,repeating-linear-gradient(to bottom left,#e8a53417,#e8a53417 5%,#e8a5340d 0,#e8a5340d 12.5%) 0 100%,repeating-linear-gradient(to top left,#e8a53417,#e8a53417 5%,#e8a5340d 0,#e8a5340d 12.5%),repeating-linear-gradient(to top right,#e8a53417,#e8a53417 5%,#e8a5340d 0,#e8a5340d 12.5%) 100% 0;background-repeat:no-repeat;background-size:100%,125% 30%,50% 50%,50% 50%,50% 50%,50% 50%,50% 50%}.ItemPopup-m_desktopPopupBody-gi12X5mX{z-index:1}.Header-m_dropdown-b93uQxn8 hr{border-top:1px solid #000}.ItemStat-m_barContainer-SmHxMlUC,.objective-progress{background-color:#222}.Compare-m_spacer-junOaW4v,.Compare-m_statList-PyQcTgmw,.DesktopItemActions-m_interaction-Ul_ZE389,.Header-m_container-NwWdFamf,.Header-m_dropdown-b93uQxn8,.LoadoutPopup-m_content-abG4JQ5c,.PressTip-m_minimalTooltip-SO6eEqfl,.PressTip-m_tooltip-SHtI4cRc,.SearchBar-m_menu-luun6aPQ,.Sheet-m_header-gBErkX0T .SheetHorizontalScrollContainer-m_horizontalScrollContainer-FKlBGiuj .sheet .sheet-container,.loadout-menu,.store-row.store-header{background-color:var(--theme-item-popup-actions-bg);backdrop-filter:blur(4px)}.Account-m_account-q6B5PKn0,.ActionButtons-m_label-US8Iulse,.CharacterTile-m_characterTile-LSTun4TU,.FilterPills-m_pill-WoF1LwzK,.ItemFeedSidebar-m_trayButton-xg_cOqMC,.ItemMoveLocations-m_vaultLabel-geqSoDNa,.ItemPopupHeader-m_subtitle-I1AZaUn7,.LoadoutView-m_finding-hRXPYkLS,.Vendor-m_location-Fcx2Os4V,.dim-button,.item,.milestone-quest,.search-filter>input[type=text],body{font-family:'Google Sans',sans-serif,'Destiny Symbols'!important;text-transform:lowercase!important}.Armory-m_header-wYPsYK5B h1,.ItemFeed-m_title-WfzygZGT,.ItemPopupHeader-m_title-K5Dg82cy,.Login-m_billboard-CQh4wkJp h1,.PressTip-m_tooltip-SHtI4cRc .PressTip-m_header-w1l90OtE h2,.Sheet-m_header-gBErkX0T :where(h1),.milestone-quest .milestone-name{font-family:'Google Sans',sans-serif,'Destiny Symbols'!important;text-transform:uppercase!important}}
+@-moz-document regexp("https://(app|beta).destinyitemmanager.com/.*$") {
+    @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+    :root {
+        --theme-accent-primary: #d294a0;
+        --theme-accent-secondary: #f5dc56;
+        --theme-fill-modal: #0009;
+        --theme-fill-modal-actions: #000c;
+        --theme-text: #efefef;
+        --theme-text-invert: #efefef;
+        --theme-text-secondary: #aaa;
+        --theme-button-bg: #ffffff1a;
+        --theme-button-text: var(--theme-text);
+        --theme-input-bg: #333;
+        --theme-drop-shadow: 0 0 18px 0 #000;
+        --theme-tooltip-underline: #0000;
+        --theme-tooltip-header-bg: #000;
+        --theme-tooltip-body-bg: #000000e0;
+        --theme-tooltip-border: #0009;
+        --theme-tooltip-minimal-bg: #0009;
+        --theme-app-bg-gradient-start: #0000;
+        --theme-app-bg-gradient-end: #0000;
+        --theme-app-bg-gradient: radial-gradient(circle at 50% 70px, var(--theme-app-bg-gradient-start) 0%, var(--theme-app-bg-gradient-end) 100%);
+        --theme-app-bg: var(--theme-app-bg-gradient);
+        --theme-pwa-background: #000;
+        --theme-mobile-background: #000;
+        --theme-header-nav-bg: var(--theme-app-bg-gradient);
+        --theme-header-nav-slideout-menu-bg: var(--theme-fill-modal);
+        --theme-header-characters-bg: var(--theme-app-bg-gradient);
+        --theme-header-characters-txt: var(--theme-text);
+        --theme-dropdown-menu-bg: var(--theme-fill-modal);
+        --theme-search-bg: #0006;
+        --theme-search-dropdown-bg: var(--theme-fill-modal-actions);
+        --theme-search-dropdown-border: #0000;
+        --theme-item-polaroid: #222;
+        --theme-item-polaroid-txt: var(--theme-text-invert);
+        --theme-item-polaroid-hover-border: #ddd;
+        --theme-item-polaroid-masterwork: #745700;
+        --theme-item-polaroid-masterwork-txt: var(--theme-text);
+        --theme-item-polaroid-capped: #745700;
+        --theme-item-polaroid-capped-txt: var(--theme-text);
+        --theme-item-polaroid-godroll: var(--theme-accent-primary);
+        --theme-item-polaroid-trashroll: var(--theme-text);
+        --theme-item-polaroid-element-adjust-brightness: 70%;
+        --theme-item-socket-border: #888;
+        --theme-item-shaped-icon: #d25336;
+        --theme-item-popup-border: #0009;
+        --theme-item-popup-arrow: var(--theme-fill-modal-actions);
+        --theme-item-popup-actions-bg: var(--theme-fill-modal-actions);
+        --theme-item-popup-panel-bg: #222;
+        --theme-item-popup-progress-bar-bg: #111;
+        --theme-item-feed-bg: var(--theme-fill-modal);
+        --theme-item-sheet-bg: var(--theme-fill-modal);
+        --theme-sheet-search-bg: #ffffff26;
+        --theme-organizer-row-odd-bg: #111;
+        --theme-organizer-row-even-bg: #000;
+        --theme-record-redeemed: #c4b578
+    }
+
+    /* CharacterTile-m_bigText- */
+    [class*="pRAtv0kI"] {
+        font-size: 18px;
+        padding-top: 2px
+    }
+
+    /* Header-m_dropdown- */
+    [class*="b93uQxn8"] hr {
+        border-top: 1px solid #000
+    }
+
+    /* ItemPopup-m_desktopPopupBody- */
+    [class*="gi12X5mX"] {
+        z-index: 1
+    }
+
+    /* ItemStat-m_barContainer- */
+    [class*="SmHxMlUC"],
+    .objective-progress {
+        background-color: #222
+    }
+
+    /* ItemIcon-m_legendaryMasterwork- */
+    [class*="EJ0gVh8G"] {
+        background: linear-gradient(#0000004d, #0000 20%), radial-gradient(ellipse at center bottom, #e8a53433, #0000 75%) bottom, radial-gradient(ellipse at center bottom, #e8a5341a, #0000 75%) bottom, repeating-linear-gradient(to bottom right, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 100% 100%, repeating-linear-gradient(to bottom left, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 0 100%, repeating-linear-gradient(to top left, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%), repeating-linear-gradient(to top right, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 100% 0;
+        background-repeat: no-repeat;
+        background-size: 100%, 125% 30%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%
+    }
+
+    /* Armory-m_header- */
+    [class*="wYPsYK5B"] h1,
+    /* ItemFeed-m_title */
+    [class*="WfzygZGT"],
+    /* ItemPopupHeader-m_title */
+    [class*="K5Dg82cy"],
+    /* Login-m_billboard */
+    [class*="CQh4wkJp h1"],
+    /* PressTip-m_tooltip- PressTip-m_header- */
+    [class*="SHtI4cRc"] [class*="w1l90OtE"] h2,
+    /* Sheet-m_header- */
+    [class*="gBErkX0T"] :where(h1),
+    .milestone-quest .milestone-name {
+        font-family: 'Google Sans', sans-serif, 'Destiny Symbols' !important;
+        text-transform: uppercase !important
+    }
+
+    /* Account-m_account- */
+    [class*="q6B5PKn0"],
+    /* ActionButtons-m_label- */
+    [class*="US8Iulse"],
+    /* CharacterTile-m_characterTile- */
+    [class*="LSTun4TU"],
+    /* FilterPills-m_pill- */
+    [class*="WoF1LwzK"],
+    /* ItemFeedSidebar-m_trayButton- */
+    [class*="xg_cOqMC"],
+    /* ItemMoveLocations-m_vaultLabel- */
+    [class*="geqSoDNa"],
+    /* ItemPopupHeader-m_subtitle- */
+    [class*="I1AZaUn7"],
+    /* LoadoutView-m_finding- */
+    [class*="hRXPYkLS"],
+    /* Vendor-m_location- */
+    [class*="Fcx2Os4V"],
+    .dim-button,
+    .item,
+    .milestone-quest,
+    .search-filter>input[type=text],
+    body {
+        font-family: 'Google Sans', sans-serif, 'Destiny Symbols' !important;
+        text-transform: lowercase !important
+    }
+
+    /* Compare-m_spacer- */
+    [class*="junOaW4v"],
+    /* Compare-m_statList- */
+    [class*="PyQcTgmw"],
+    /* DesktopItemActions-m_interaction- */
+    [class*="Ul_ZE389"],
+    /* Header-m_container- */
+    [class*="NwWdFamf"],
+    /* Header-m_dropdown- */
+    [class*="b93uQxn8"],
+    /* LoadoutPopup-m_content- */
+    [class*="abG4JQ5c"],
+    /* PressTip-m_minimalTooltip- */
+    [class*="SO6eEqfl"],
+    /* PressTip-m_tooltip- */
+    [class*="SHtI4cRc"],
+    /* SearchBar-m_menu- */
+    [class*="luun6aPQ"],
+    /* Sheet-m_header- SheetHorizontalScrollContainer-m_horizontalScrollContainer- */
+    [class*="gBErkX0T"] [class*="FKlBGiuj"] .sheet .sheet-container,
+    .loadout-menu,
+    .store-row.store-header {
+        background-color: var(--theme-item-popup-actions-bg);
+        backdrop-filter: blur(4px)
+    }
+}
