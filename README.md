@@ -1,9 +1,10 @@
-# 🧋 DIM milk
+# 🌌 dim milk
 
 a soft, easy-on-the-eyes theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM)
 
-![preview 1](https://milkembers.github.io/DIM-milk/assets/preview1.png)
-![preview 2](https://milkembers.github.io/DIM-milk/assets/preview2.png)![preview 3](https://milkembers.github.io/DIM-milk/assets/preview3.png)
+![preview 1](https://milkembers.github.io/DIM-milk/assets/preview1.png)  
+![preview 2](https://milkembers.github.io/DIM-milk/assets/preview2.png)
+![preview 3](https://milkembers.github.io/DIM-milk/assets/preview3.png)
 
 ## install
 
