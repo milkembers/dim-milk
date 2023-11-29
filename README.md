@@ -1,4 +1,4 @@
-# 🧋 DIM milk
+# 🌌 dim milk
 
 a soft, easy-on-the-eyes theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM)
 
