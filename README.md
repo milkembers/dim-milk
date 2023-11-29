@@ -2,9 +2,7 @@
 
 a soft dark theme for [Destiny Item Manager](https://github.com/DestinyItemManager/DIM)
 
-![preview 1](https://milkembers.github.io/dim-milk/assets/preview1.png)  
-![preview 2](https://milkembers.github.io/dim-milk/assets/preview2.png)
-![preview 3](https://milkembers.github.io/dim-milk/assets/preview3.png)
+![preview](https://milkembers.github.io/dim-milk/assets/preview.png)
 
 ## install
 
