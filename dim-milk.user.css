@@ -90,6 +90,11 @@
         border-top: 1px solid var(--bg-black)
     }
 
+    /* ItemPerksList-m_socket- */
+    [class*="YUnWXHkm"] {
+        border-bottom: 1px solid var(--bg-5)
+    }
+
     /* ItemPopup-m_desktopPopupBody- */
     [class*="gi12X5mX"] {
         z-index: 1
