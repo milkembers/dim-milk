@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.7
+@version        1.2.8
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -12,16 +12,16 @@
     @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 
     :root {
-        --theme-accent-primary: #d294a0;
-        --theme-accent-secondary: #f5dc56;
+        --theme-accent-primary: #c88caa;
+        --theme-accent-secondary: #f9e2af;
         --theme-fill-modal: #0009;
         --theme-fill-modal-actions: #000c;
-        --theme-text: #efefef;
-        --theme-text-invert: #efefef;
-        --theme-text-secondary: #aaa;
+        --theme-text: #cdd6f4;
+        --theme-text-invert: #cdd6f4;
+        --theme-text-secondary: #a6adc8;
         --theme-button-bg: #ffffff1a;
         --theme-button-text: var(--theme-text);
-        --theme-input-bg: #333;
+        --theme-input-bg: #333334;
         --theme-drop-shadow: 0 0 18px 0 #000;
         --theme-tooltip-underline: #0000;
         --theme-tooltip-header-bg: #000;
@@ -42,9 +42,9 @@
         --theme-search-bg: #0006;
         --theme-search-dropdown-bg: var(--theme-fill-modal-actions);
         --theme-search-dropdown-border: #0000;
-        --theme-item-polaroid: #222;
+        --theme-item-polaroid: #151516;
         --theme-item-polaroid-txt: var(--theme-text-invert);
-        --theme-item-polaroid-hover-border: #ddd;
+        --theme-item-polaroid-hover-border: #cdd6f4;
         --theme-item-polaroid-masterwork: #745700;
         --theme-item-polaroid-masterwork-txt: var(--theme-text);
         --theme-item-polaroid-capped: #745700;
@@ -52,19 +52,19 @@
         --theme-item-polaroid-godroll: var(--theme-accent-primary);
         --theme-item-polaroid-trashroll: var(--theme-text);
         --theme-item-polaroid-element-adjust-brightness: 70%;
-        --theme-item-socket-border: #888;
+        --theme-item-socket-border: #9399b2;
         --theme-item-shaped-icon: #d25336;
         --theme-item-popup-border: #0009;
         --theme-item-popup-arrow: var(--theme-fill-modal-actions);
         --theme-item-popup-actions-bg: var(--theme-fill-modal-actions);
-        --theme-item-popup-panel-bg: #222;
-        --theme-item-popup-progress-bar-bg: #111;
+        --theme-item-popup-panel-bg: #222224;
+        --theme-item-popup-progress-bar-bg: #101011;
         --theme-item-feed-bg: var(--theme-fill-modal);
         --theme-item-sheet-bg: var(--theme-fill-modal);
         --theme-sheet-search-bg: #ffffff26;
-        --theme-organizer-row-odd-bg: #111;
+        --theme-organizer-row-odd-bg: #151516;
         --theme-organizer-row-even-bg: #000;
-        --theme-record-redeemed: #c4b578
+        --theme-record-redeemed: #c4b578;
     }
 
     /* CharacterTile-m_bigText- */
