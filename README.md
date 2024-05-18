@@ -9,5 +9,8 @@ a soft dark theme for [Destiny Item Manager](https://github.com/DestinyItemManag
 1. get Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. follow this link to [install with Stylus](https://milkembers.github.io/dim-milk/dim-milk.user.css)
   
+> [!IMPORTANT]  
+> make sure to set the native theme to 'default' in settings
+
 > [!NOTE]  
 > works on both the regular and beta versions of Destiny Item Manager
