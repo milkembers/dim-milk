@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.8
+@version        1.2.9
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -75,7 +75,9 @@
     }
 
     /* CharacterTile-m_bigText- */
-    [class*="pRAtv0kI"] {
+    [class*="pRAtv0kI"],
+    /* CharacterTile-m_vaultName- */
+    [class*="dDf1cJt"] {
         font-size: 18px;
         padding-top: 2px
     }
@@ -136,6 +138,8 @@
     [class*="US8Iulse"],
     /* CharacterTile-m_characterTile- */
     [class*="LSTun4TU"],
+    /* CharacterTile-m_vaultName- */
+    [class*="dDf1cJt"],
     /* FilterPills-m_pill- */
     [class*="WoF1LwzK"],
     /* ItemFeedSidebar-m_trayButton- */
