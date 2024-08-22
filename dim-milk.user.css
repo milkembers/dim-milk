@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.9
+@version        1.2.10
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -128,7 +128,7 @@
     /* Sheet-m_header- */
     [class*="gBErkX0T"] :where(h1),
     .milestone-quest .milestone-name {
-        font-family: 'Google Sans', sans-serif, 'Destiny Symbols' !important;
+        font-family: 'Google Sans', sans-serif, 'Destiny Symbols', 'DIM Symbols' !important;
         text-transform: uppercase !important
     }
 
@@ -152,12 +152,14 @@
     [class*="hRXPYkLS"],
     /* Vendor-m_location- */
     [class*="Fcx2Os4V"],
+    /* Loadouts-m_menu- */
+    [class*="rpbuzrS3"] select,
     .dim-button,
     .item,
     .milestone-quest,
     .search-filter>input[type=text],
     body {
-        font-family: 'Google Sans', sans-serif, 'Destiny Symbols' !important;
+        font-family: 'Google Sans', sans-serif, 'Destiny Symbols', 'DIM Symbols' !important;
         text-transform: lowercase !important
     }
 
@@ -181,6 +183,10 @@
     [class*="luun6aPQ"],
     /* Sheet-m_container- */
     [class*="KNQcuskl"],
+    /* SymbolsPicker-m_symbolsSearch- */
+    [class*="U4ZCIPLm"],
+    /* SymbolsPicker-m_symbolsContainer- */
+    [class*="vx1dq7Ib"],
     /* Sheet-m_header- SheetHorizontalScrollContainer-m_horizontalScrollContainer- */
     [class*="gBErkX0T"] [class*="FKlBGiuj"] .sheet .sheet-container,
     .loadout-menu,
