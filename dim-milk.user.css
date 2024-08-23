@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.10
+@version        1.2.11
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -74,12 +74,27 @@
         --bg-clear: #0000;
     }
 
-    /* CharacterTile-m_bigText- */
-    [class*="pRAtv0kI"],
+    /* CharacterTile-m_class- */
+    [class*="wq_5uy0G"] {
+        padding-top: 4px
+    }
+
     /* CharacterTile-m_vaultName- */
     [class*="dDf1cJt"] {
-        font-size: 18px;
-        padding-top: 2px
+        font-size: 18px
+    }
+
+    /* CharacterTile-m_characterTile- CharacterTile-m_powerLevel- */
+    [class*="LSTun4TU"] [class*="ocVP7y8z"] {
+        margin-top: 0px;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+    }
+
+    /* CharacterTile-m_vaultTile- CharacterTile-m_powerLevel- */
+    [class*="r_AjP4Jb"] [class*="ocVP7y8z"] {
+        font-size: 16px;
     }
 
     /* CharacterTile-m_powerLevel- */
@@ -140,6 +155,8 @@
     [class*="LSTun4TU"],
     /* CharacterTile-m_vaultName- */
     [class*="dDf1cJt"],
+    /* CharacterTile-m_powerLevel- */
+    [class*="ocVP7y8z"],
     /* FilterPills-m_pill- */
     [class*="WoF1LwzK"],
     /* ItemFeedSidebar-m_trayButton- */
