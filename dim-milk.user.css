@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.11
+@version        1.2.12
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -28,8 +28,8 @@
         --theme-tooltip-body-bg: var(--bg-1);
         --theme-tooltip-border: var(--theme-fill-modal);
         --theme-tooltip-minimal-bg: var(--theme-fill-modal);
-        --theme-app-bg-gradient-start: var(--bg-clear);
-        --theme-app-bg-gradient-end: var(--bg-clear);
+        --theme-app-bg-gradient-start: var(--bg-black);
+        --theme-app-bg-gradient-end: var(--bg-black);
         --theme-app-bg-gradient: radial-gradient(circle at 50% 70px, var(--theme-app-bg-gradient-start) 0%, var(--theme-app-bg-gradient-end) 100%);
         --theme-app-bg: var(--theme-app-bg-gradient);
         --theme-pwa-background: var(--bg-black);
@@ -140,6 +140,8 @@
     [class*="CQh4wkJp h1"],
     /* PressTip-m_tooltip- PressTip-m_header- */
     [class*="SHtI4cRc"] [class*="w1l90OtE"] h2,
+    /* VendorsMenu-m_vendorMenuItem- */
+    [class*="dcCRLdS_"],
     /* Sheet-m_header- */
     [class*="gBErkX0T"] :where(h1),
     .milestone-quest .milestone-name {
@@ -171,6 +173,7 @@
     [class*="Fcx2Os4V"],
     /* Loadouts-m_menu- */
     [class*="rpbuzrS3"] select,
+    .Loadouts-m_menuLoadout-Xiwwux2e:first-of-type>span:not(.Loadouts-m_app-icon-hgEY9bwf),
     .dim-button,
     .item,
     .milestone-quest,
