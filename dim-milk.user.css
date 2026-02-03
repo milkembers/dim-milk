@@ -75,6 +75,10 @@
         --bg-clear: #0000;
     }
 
+    body {
+        color: #cdd6f4
+    }
+    
     /* CharacterTile-m_class- */
     [class*="wq_5uy0G"] {
         padding-top: 3px
