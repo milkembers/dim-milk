@@ -2,7 +2,7 @@
 @name           dim milk
 @namespace      github.com/milkembers/dim-milk
 @homepageURL    https://github.com/milkembers/dim-milk
-@version        1.2.12
+@version        1.2.13
 @description    a soft theme for Destiny Item Manager
 @author         milk
 @updateURL      https://milkembers.github.io/dim-milk/dim-milk.user.css
@@ -19,6 +19,7 @@
         --theme-text: #cdd6f4;
         --theme-text-invert: var(--theme-text);
         --theme-text-secondary: #9399b2;
+        --theme-text-tertiary: #5c5c5c;
         --theme-button-bg: #ffffff1a;
         --theme-button-text: var(--theme-text);
         --theme-input-bg: var(--bg-5);
@@ -76,12 +77,17 @@
 
     /* CharacterTile-m_class- */
     [class*="wq_5uy0G"] {
-        padding-top: 4px
+        padding-top: 3px
     }
 
     /* CharacterTile-m_vaultName- */
     [class*="dDf1cJt"] {
         font-size: 18px
+    }
+
+    /* FractionalPowerLevel-m_fractionalPowerLevel- */
+    [class*="jyIFBj6M"] {
+        font-size: 16px
     }
 
     /* CharacterTile-m_characterTile- CharacterTile-m_powerLevel- */
@@ -90,11 +96,6 @@
         position: absolute;
         top: 50%;
         right: 50%;
-    }
-
-    /* CharacterTile-m_vaultTile- CharacterTile-m_powerLevel- */
-    [class*="r_AjP4Jb"] [class*="ocVP7y8z"] {
-        font-size: 16px;
     }
 
     /* CharacterTile-m_powerLevel- */
@@ -117,17 +118,8 @@
         z-index: 1
     }
 
-    /* ItemStat-m_barContainer- */
-    [class*="SmHxMlUC"],
-    .objective-progress {
-        background-color: var(--bg-5);
-    }
-
-    /* ItemIcon-m_legendaryMasterwork- */
-    [class*="EJ0gVh8G"] {
-        background: linear-gradient(#0000004d, #0000 20%), radial-gradient(ellipse at center bottom, #e8a53433, #0000 75%) bottom, radial-gradient(ellipse at center bottom, #e8a5341a, #0000 75%) bottom, repeating-linear-gradient(to bottom right, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 100% 100%, repeating-linear-gradient(to bottom left, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 0 100%, repeating-linear-gradient(to top left, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%), repeating-linear-gradient(to top right, #e8a53417, #e8a53417 5%, #e8a5340d 0, #e8a5340d 12.5%) 100% 0;
-        background-repeat: no-repeat;
-        background-size: 100%, 125% 30%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%
+    #downshift-_r_1_-input::placeholder {
+        color: var(--theme-text-tertiary)
     }
 
     /* Armory-m_header- */
@@ -167,17 +159,19 @@
     [class*="geqSoDNa"],
     /* ItemPopupHeader-m_subtitle- */
     [class*="I1AZaUn7"],
-    /* LoadoutView-m_finding- */
-    [class*="hRXPYkLS"],
     /* Vendor-m_location- */
     [class*="Fcx2Os4V"],
     /* Loadouts-m_menu- */
     [class*="rpbuzrS3"] select,
-    .Loadouts-m_menuLoadout-Xiwwux2e:first-of-type>span:not(.Loadouts-m_app-icon-hgEY9bwf),
+    /* Loadouts-m_loadoutRow- LoadoutView-m_title- */
+    [class*="FjniLgre"][data-index="0"] [class*="qblwiY0l"] h2,
+    /* SymbolsPicker-m_wrapperDiv- */
+    [class*="giHUNpEx"] input::placeholder,
+    .Loadouts-m_menuLoadout-Xiwwux2e:first-of-type > span:not(.Loadouts-m_app-icon-hgEY9bwf),
     .dim-button,
     .item,
     .milestone-quest,
-    .search-filter>input[type=text],
+    .search-filter > input[type=text],
     body {
         font-family: 'Google Sans', sans-serif, 'Destiny Symbols', 'DIM Symbols' !important;
         text-transform: lowercase !important
