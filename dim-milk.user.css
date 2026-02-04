@@ -78,7 +78,7 @@
     body {
         color: #cdd6f4
     }
-    
+
     /* CharacterTile-m_class- */
     [class*="wq_5uy0G"] {
         padding-top: 3px
@@ -163,14 +163,16 @@
     [class*="geqSoDNa"],
     /* ItemPopupHeader-m_subtitle- */
     [class*="I1AZaUn7"],
-    /* Vendor-m_location- */
-    [class*="Fcx2Os4V"],
     /* Loadouts-m_menu- */
     [class*="rpbuzrS3"] select,
     /* Loadouts-m_loadoutRow- LoadoutView-m_title- */
     [class*="FjniLgre"][data-index="0"] [class*="qblwiY0l"] h2,
+    /* LoadoutView-m_finding- */
+    [class*="hRXPYkLS"],
     /* SymbolsPicker-m_wrapperDiv- */
     [class*="giHUNpEx"] input::placeholder,
+    /* Vendor-m_location- */
+    [class*="Fcx2Os4V"],
     .Loadouts-m_menuLoadout-Xiwwux2e:first-of-type > span:not(.Loadouts-m_app-icon-hgEY9bwf),
     .dim-button,
     .item,
